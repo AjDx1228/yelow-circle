@@ -1,3 +1,4 @@
+import sys
 from PyQt5.QtWidgets import QWidget, QApplication, QMainWindow, QLabel, QGridLayout
 from PyQt5.QtGui import QPainter, QPixmap, QPen, QColor
 from PyQt5.QtCore import Qt
@@ -38,7 +39,6 @@ class Test(QMainWindow):
 
 
 if __name__ == '__main__':
-    import sys
     app = QApplication(sys.argv)
     w = Test()
     w.show()
